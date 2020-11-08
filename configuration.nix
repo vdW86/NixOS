@@ -64,7 +64,7 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-   users.users.kevin = {
+   users.users.username = {
      isNormalUser = true;
      extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
    };
@@ -217,11 +217,11 @@ zathura
 
 security.rngd.enable = false; 
 
-fileSystems."/virtualboxshare" = {
-    fsType = "vboxsf";
-    device = "1._Sync_mappen";
-    options = [ "rw" "nofail" ];
-  };
+#fileSystems."/virtualboxshare" = {
+ #   fsType = "vboxsf";
+ #   device = "1._Sync_mappen";
+ #   options = [ "rw" "nofail" ];
+ # };
 
 }
 
