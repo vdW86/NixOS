@@ -64,7 +64,7 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-   users.users.username = {
+   users.users.kevin = {
      isNormalUser = true;
      extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
    };
@@ -143,6 +143,7 @@ numix-icon-theme
 #Tools
 gmrun
 xarchiver
+p7zip
 unzip
 pcmanfm
 keepass
